@@ -25,9 +25,14 @@ Epoch[799] Validation-cls_diff=0.000706
 ## Files in github
 1. ``run_train.py``: the main file of training
 2. ``data_ulti.py``: handle the data
-3. files in ``./log``: log files for tensorboard
-4. files in ``./pretrained_models``: some pretrained models given by Bittiger
-5. ``testandprint.py``: randomly choose 30 images in testing data set and show the result after model. The test images with result are stored in ``./result`` directory
-6. ``toJson.py``: according to the request of this work, we need to create json file to store last test result. This python file will create the test result based on testing data and store in ``result.json``. 
+3. ``testandprint.py``: randomly choose 30 images in testing data set and show the result after model. The test images with result are stored in ``./result`` directory
+4. ``toJson.py``: according to the request of this work, we need to create json file to store last test result. This python file will create the test result based on testing data and store in ``result.json``. 
 
-> note that the data given by Bittiger will not be provided in this github.
+> Note: the training and testing data given by Bittiger will not be provided in this github.
+> 
+
+## Files to download
+Several files are too big to download directly from github. Here is a link:https://pan.baidu.com/s/1c2GXQP6 with PIN:6of9
+1. files in ``./log``: log files for tensorboard. 
+2. files in ``./pretrained_models``: some pretrained models given by Bittiger
+3. trained final model: ``drive_full_detect-symbol.json`` and ``drive_full_detect-800.params``
